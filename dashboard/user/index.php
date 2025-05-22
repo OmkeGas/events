@@ -11,10 +11,10 @@ include '../../src/components/user/sidebar.php';
 ?>
 
 </>
-<main class="bg-gray-100 pt-24 sm:ml-64 px-6">
+<main class=" pt-24 sm:ml-64 px-6 ">
     
     <!-- Event Dashboard Header -->
-    <div class="flex items-center justify-between mb-6">
+    <div class="flex items-center justify-between ml-2 mb-6">
         <div class="flex items-center gap-3">
             <div class="bg-blue-900 text-white p-2 rounded-md">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">

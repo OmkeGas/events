@@ -18,6 +18,6 @@ require_once __DIR__ . '/../../../config.php';
     </style>
 </head>
 
-<body>
+<body class="bg-gray-100" >
 
     <main>
