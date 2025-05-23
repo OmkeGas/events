@@ -5,33 +5,61 @@ include '../../src/layouts/user/header.php';
 
 <?php
 include '../../src/components/navbar.php';
-include '../../src/components/eventlist_sidebar.php'; // Memuat sidebar event list baru
+include '../../src/components/eventlist_sidebar.php'; 
 ?>
 
 <?php
 $events = [
     [
-        'nama_event' => 'Pengembangan Web Modern dengan Laravel',
-        'nama_pemateri' => 'Budi Santoso',
-        'deskripsi_event' => 'Pelajari framework Laravel untuk membangun aplikasi web yang skalabel dan efisien. Cocok untuk pemula hingga menengah.',
+        'nama_event' => 'How To Spend Million in 17',
+        'nama_pemateri' => 'Rindang Tulus, Yoga Prastyo',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus',
         'sisa_kuota' => 50,
-        'link_poster' => $base_url . '/src/images/poster_laravel.png' // Ganti dengan path poster asli Anda
+        'link_poster' => $base_url . '/src/images/1.jpg' 
     ],
     [
-        'nama_event' => 'Data Science & Machine Learning untuk Pemula',
-        'nama_pemateri' => 'Citra Dewi',
-        'deskripsi_event' => 'Pengenalan dasar-dasar ilmu data, machine learning, dan aplikasinya dalam kehidupan sehari-hari.',
+        'nama_event' => 'Talkshow Asbunatif',
+        'nama_pemateri' => 'Tarissa Dewi, Rasyiid Wierastama',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
         'sisa_kuota' => 25,
-        'link_poster' => $base_url . '/src/images/poster_datascience.png' // Ganti dengan path poster asli Anda
+        'link_poster' => $base_url . '/src/images/2.jpg' 
     ],
     [
-        'nama_event' => 'Desain UI/UX Fundamental dengan Figma',
-        'nama_pemateri' => 'Adi Nugroho',
-        'deskripsi_event' => 'Belajar membuat desain antarmuka pengguna yang intuitif dan menarik menggunakan Figma.',
+        'nama_event' => 'Kembangkan Skill Promptmu Seminarmu',
+        'nama_pemateri' => 'Janesh, Amel, Navyz',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
         'sisa_kuota' => 10,
-        'link_poster' => $base_url . '/src/images/poster_uiux.png' // Ganti dengan path poster asli Anda
+        'link_poster' => $base_url . '/src/images/3.jpg' 
     ],
-    // Tambahkan data event lain di sini sesuai kebutuhan
+    [
+        'nama_event' => 'Tips and Trick Become IT Girl',
+        'nama_pemateri' => 'Tarissa, Rindang',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
+        'sisa_kuota' => 10,
+        'link_poster' => $base_url . '/src/images/4.jpg' 
+    ],
+    [
+        'nama_event' => 'Tech and Weeb Synergy',
+        'nama_pemateri' => 'Yoga, Tama',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
+        'sisa_kuota' => 10,
+        'link_poster' => $base_url . '/src/images/5.jpg' 
+    ],
+    [
+        'nama_event' => 'Penasaran Digidaw',
+        'nama_pemateri' => 'Amel, Janesh',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
+        'sisa_kuota' => 10,
+        'link_poster' => $base_url . '/src/images/6.jpg' // Ganti dengan path poster asli Anda
+    ],
+    [
+        'nama_event' => 'Mastering Game Tactics',
+        'nama_pemateri' => 'Navyz',
+        'deskripsi_event' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus.',
+        'sisa_kuota' => 10,
+        'link_poster' => $base_url . '/src/images/7.jpg' 
+    ],
+   
 ];
 ?>
 

@@ -6,7 +6,10 @@
         </svg>
               <h2 class="text-xl font-semibold">Event List</h2>
           </div>
-          <p class="text-sm text-gray-600 dark:text-gray-400">Find your favorite seminars here!</p>
-          </div>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Find your favorite seminars here!
+            <img class="h-16" src="https://media2.giphy.com/media/fs6yE0mCGBXBfB5mvZ/giphy.gif?cid=6c09b952di52zs1rw3b6bqr2gq012pqml4opmwexchqi4ub0&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="">
+          </p>
+        </div>
+          
    </div>
 </aside>
