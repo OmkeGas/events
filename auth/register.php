@@ -45,7 +45,7 @@ require_once __DIR__ . '/../config.php';
                         <div>
                             <label for="confirm-password" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
                             <input
-                                type="confirm-password"
+                                type="password"
                                 name="confirm-password"
                                 id="confirm-password"
                                 placeholder="••••••••"
