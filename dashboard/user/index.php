@@ -31,34 +31,34 @@ include '../../src/components/user/sidebar.php';
         </button>
     </div>
     <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-        <h2 class="text-lg font-semibold text-gray-800 mb-1">Event Terdaftar</h2>
-        <p class="text-sm text-gray-600 mb-6">Anda telah terdaftar dalam event ini:</p>
+        <h2 class="text-lg font-semibold text-gray-800 mb-1">Registered Event</h2>
+        <p class="text-sm text-gray-600 mb-6">You have registered for this event:</p>
 
         <div class="overflow-hidden border border-gray-200 rounded-lg">
             <table class="w-full">
                 <thead class="bg-gray-50">
                     <tr>
                         <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                            Nama
+                            Name
                         </th>
                         <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                            Tanggal Pelaksanaan
+                            implementation date
                         </th>
                         <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                            Tempat
+                            Place
                         </th>
                         <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                            Aksi
+                            Action
                         </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
                     <tr class="hover:bg-gray-50">
                         <td class="px-6 py-4 whitespace-nowrap">
-                            <span class="text-sm font-medium text-gray-900">Nama Eventnya</span>
+                            <span class="text-sm font-medium text-gray-900">Namae event</span>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
-                            <span class="text-sm text-gray-600">Mulai 23 Februari 2026</span>
+                            <span class="text-sm text-gray-600">24 February 2025</span>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
                             <span class="text-sm text-gray-600">Online</span>
@@ -68,7 +68,7 @@ include '../../src/components/user/sidebar.php';
                                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
                                 </svg>
-                                Lihat Detail
+                                Detail event
                             </button>
                         </td>
                     </tr>
