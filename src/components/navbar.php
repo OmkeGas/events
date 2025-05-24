@@ -1,5 +1,5 @@
 
-<nav class="fixed top-0 z-50 w-full bg-[#50d71e] shadow-md">
+<nav class="fixed top-0 z-50 w-full bg-[#7DBAFF] shadow-md">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
             <div class="flex items-center justify-start rtl:justify-end">
