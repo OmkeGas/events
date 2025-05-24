@@ -18,7 +18,7 @@ require_once __DIR__ . '/../config.php';
             <a href="" class="mb-6 flex items-center text-2xl font-semibold text-gray-900 dark:text-white">
                 <img class="h-18" src="<?= $base_url ?>/src/images/logo.png" alt="logo" />
             </a>
-            <div class="w-full rounded-lg bg-white shadow sm:max-w-md md:mt-0 xl:p-0 dark:border dark:border-gray-700 dark:bg-gray-800">
+            <div class="w-full rounded-lg bg-white shadow-2xl sm:max-w-md md:mt-0 xl:p-0 dark:border dark:border-gray-700 dark:bg-gray-800">
                 <div class="space-y-4 p-6 sm:p-8 md:space-y-6">
                     <h1 class="text-xl leading-tight font-bold tracking-tight text-gray-900 md:text-2xl dark:text-white">Sign in to your account</h1>
                     <form class="space-y-4 md:space-y-6" action="#">
