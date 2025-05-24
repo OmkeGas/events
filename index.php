@@ -7,23 +7,8 @@ require_once __DIR__ . '/config.php';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <style>
-      @import url("https://fonts.cdnfonts.com/css/lemonmilk");
-      @import url("https://fonts.cdnfonts.com/css/product-sans");
 
-      h1 {
-        font-family: "Lemon/Milk", sans-serif;
-      }
-
-      p {
-        font-family: "Product Sans", sans-serif;
-      }
-
-      a {
-        font-family: "Product Sans", sans-serif;
-      }
-    </style>
-    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="<?= $base_url ?>/src/css/main.css">
   </head>
 
   <body class="bg-white font-sans text-gray-800">
@@ -147,7 +132,7 @@ require_once __DIR__ . '/config.php';
     <main>
       <section class="flex flex-col items-center justify-between px-6 py-10 md:px-20 lg:flex-row lg:py-10 lg:pl-40">
         <div class="max-w-xl space-y-6 pt-10 lg:w-1/2 lg:max-w-none">
-          <h1 class="text-6xl leading-snug font-bold text-[#1C2D5A]">
+          <h1 class="text-6xl font-lemon-milk leading-snug font-bold text-[#1C2D5A]">
             FIND YOUR <br />
             INTEREST SEMINAR <br />
             <div class="flex items-center space-x-3">
