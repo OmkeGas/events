@@ -4,8 +4,8 @@ include '../../src/layouts/user/header.php';
 ?>
 
 <?php
-include '../../src/components/navbar.php';
-include '../../src/components/eventlist_sidebar.php'; 
+include '../../src/components/user/navbar.php';
+include '../../src/components/user/eventlist_sidebar.php'; 
 ?>
 
 <?php
