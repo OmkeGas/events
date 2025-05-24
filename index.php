@@ -9,7 +9,6 @@ require_once __DIR__ . '/config.php';
     <title>Landing Page</title>
 
     <link rel="stylesheet" href="<?= $base_url ?>/src/css/main.css">
-    <link rel="stylesheet" href="<?= $base_url ?>/src/css/style.css">
   </head>
 
   <body class="bg-white font-sans text-gray-800">
