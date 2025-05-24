@@ -31,7 +31,7 @@ require_once __DIR__ . '/config.php';
       <nav class="border-gray-200 bg-[#7DBAFF] dark:bg-gray-900">
         <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-3">
           <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="<?= $base_url ?>/src/images/logo.png" class="h-14" alt="DiPENS Logo" />
+            <img src="<?= $base_url ?>/src/images/logo.png" class="h-14" alt="DIPENS Logo" />
           </a>
           <div class="flex">
             <button
@@ -152,7 +152,7 @@ require_once __DIR__ . '/config.php';
             INTEREST SEMINAR <br />
             <div class="flex items-center space-x-3">
               <span>IN</span>
-              <img src="<?= $base_url ?>/src/images/logo.png" alt="DiPENS Logo" class="h-20 w-50" />
+              <img src="<?= $base_url ?>/src/images/logo.png" alt="DIPENS Logo" class="h-20 w-50" />
             </div>
           </h1>
 
@@ -167,7 +167,7 @@ require_once __DIR__ . '/config.php';
         <div class="mt-12 flex justify-center lg:mt-0 lg:w-1/2">
           <img
             src="<?= $base_url ?>/src/images/profile-member.png"
-            alt="Dipens Team"
+            alt="Profile Member"
             class="mx-auto h-auto w-full max-w-xl lg:w-[700px] lg:max-w-none"
           />
         </div>
