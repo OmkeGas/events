@@ -1,11 +1,13 @@
 <?php
 $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 $url = rtrim($url, '/');
-$url = filter_var($url, FILTER_SANITIZE_URL);
 
-$page = __DIR__ . '/../src/pages/' . $url . '.php';
+$url = preg_replace('/[^a-zA-Z0-9\/_-]/', '', $url);
 
-if (file_exists($page)) {
+$page = realpath(__DIR__ . '/../src/pages/' . $url . '.php');
+$realBase = realpath(__DIR__ . '/../src/pages/');
+
+if ($page && strpos($page, $realBase) === 0 && file_exists($page)) {
     require_once $page;
 } else {
     echo "404 - Halaman tidak ditemukan";
