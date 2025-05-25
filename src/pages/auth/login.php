@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../../../config/app.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -9,14 +9,14 @@ require_once __DIR__ . '/../config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
 
-    <link rel="stylesheet" href="<?= $base_url ?>/src/css/main.css" />
+    <link rel="stylesheet" href="<?= base_url("/css/style.css") ?>" />
 </head>
 
 <body class="bg-white font-sans text-gray-800">
     <section class="bg-[url('../../src/images/bg-login.webp')] bg-cover bg-bottom-right md:bg-auto">
         <div class="mx-auto flex h-screen flex-col items-center justify-center px-6 py-8 lg:py-0">
-            <a href="" class="mb-6 flex items-center text-2xl font-semibold text-gray-900 dark:text-white">
-                <img class="h-18" src="<?= $base_url ?>/src/images/logo.png" alt="logo" />
+            <a href="<?=base_url()?>" class="mb-6 flex items-center text-2xl font-semibold text-gray-900 dark:text-white">
+                <img class="h-18" src="<?= base_url("/images/logo.png")?>" alt="logo" />
             </a>
             <div class="w-full rounded-lg bg-white shadow-2xl sm:max-w-md md:mt-0 xl:p-0 dark:border dark:border-gray-700 dark:bg-gray-800">
                 <div class="space-y-4 p-6 sm:p-8 md:space-y-6">
@@ -64,7 +64,7 @@ require_once __DIR__ . '/../config.php';
                             Sign in
                         </button>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                            Don’t have an account yet? <a href="<?= $base_url ?>/auth/register.php" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Sign up</a>
+                            Don’t have an account yet? <a href="<?= base_url("/auth/register") ?>" class="font-medium text-blue-600 hover:underline dark:text-blue-500">Sign up</a>
                         </p>
                     </form>
                 </div>
