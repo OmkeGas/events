@@ -10,5 +10,5 @@ $realBase = realpath(__DIR__ . '/../src/pages/');
 if ($page && strpos($page, $realBase) === 0 && file_exists($page)) {
     require_once $page;
 } else {
-    echo "404 - Halaman tidak ditemukan";
+    header('HTTP/1.1 404 Not Found');
 }
