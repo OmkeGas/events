@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../../config/app.php';
+require_once __DIR__ . '/config.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -9,7 +9,7 @@ require_once __DIR__ . '/../../config/app.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
 
-  <link rel="stylesheet" href="<?= base_url("/css/style.css") ?>">
+  <link rel="stylesheet" href="<?= $base_url ?>/src/css/main.css">
 </head>
 
 <body class="bg-white font-sans text-gray-800">
@@ -17,7 +17,7 @@ require_once __DIR__ . '/../../config/app.php';
     <nav class="border-gray-200 bg-[#7DBAFF] dark:bg-gray-900">
       <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-3">
         <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="<?= base_url("/images/logo.png") ?>" class="h-14" alt="DIPENS Logo" />
+          <img src="<?= $base_url ?>/src/images/logo.png" class="h-14" alt="DIPENS Logo" />
         </a>
         <div class="flex">
           <button
@@ -90,7 +90,7 @@ require_once __DIR__ . '/../../config/app.php';
             </div>
             <input
               type="text"
-              id="search-navbar-mobile"
+              id="search-navbar"
               class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2 ps-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
               placeholder="Search..." />
           </div>
@@ -104,7 +104,7 @@ require_once __DIR__ . '/../../config/app.php';
             </li>
             <li>
               <a
-                href="<?= base_url("/auth/login") ?>"
+                href="<?= $base_url ?>/auth/login.php"
                 class="w-full cursor-pointer rounded-sm border border-white bg-transparent px-4 py-2 text-center text-sm font-medium text-white hover:bg-gray-100 hover:text-black focus:ring-4 focus:ring-blue-300 focus:outline-none dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Log in
               </a>
@@ -123,7 +123,7 @@ require_once __DIR__ . '/../../config/app.php';
           INTEREST SEMINAR <br />
           <div class="flex items-center space-x-3">
             <span>IN</span>
-            <img src="<?= base_url("/images/logo.png") ?>" alt="DIPENS Logo" class="h-20 w-50" />
+            <img src="<?= $base_url ?>/src/images/logo.png" alt="DIPENS Logo" class="h-20 w-50" />
           </div>
         </h1>
 
@@ -137,7 +137,7 @@ require_once __DIR__ . '/../../config/app.php';
 
       <div class="mt-12 flex justify-center lg:mt-0 lg:w-1/2">
         <img
-          src="<?= base_url("/images/profile-member.png") ?>"
+          src="<?= $base_url ?>/src/images/profile-member.png"
           alt="Profile Member"
           class="mx-auto h-auto w-full max-w-xl lg:w-[700px] lg:max-w-none" />
       </div>
